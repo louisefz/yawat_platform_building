@@ -1,0 +1,257 @@
+/* (c) 2007 Ulrich Germann. All rights reserved. */
+.word 
+{ 
+  display:          inline; 
+  cursor:           default; 
+  min-width:        20px; 
+
+  border-width:     medium;
+  border-style:     solid;
+  border-color:     transparent;
+
+  color:            inherit;
+  background-color: transparent;
+
+  font-size:        16pt;
+  }
+
+div.menuItem
+{ 
+  border: none;
+  cursor: pointer;
+ }
+
+
+.unaligned2          { background-color: #DDDDDD; }
+.unaligned3          { background-color: #DDDDDD; border-color: blue; }
+div.unalignedM       { background-color: #DDDDDD; color: red;}
+div.unalignedM:hover { background-color: #EEEEEE; } 
+
+.transre_slight_semantic1           { color: #DC00FA; background-color: transparent; border: medium solid transparent;} 
+/* in .tagName2 color:black and background-color are important */
+.transre_slight_semantic2           { color: black; background-color: #DC00FA; border: medium solid transparent;} 
+.transre_slight_semantic3           { color: black; background-color: #DC00FA; border-color: #666600; }
+div.transre_slight_semanticM        { color: black; background-color: #DC00FA; border: none;}
+div.transre_slight_semanticM:hover  { color: black; background-color: #FFFFFF; border: none; }
+
+
+.transre_total_semantic1           { color: #FA007D; background-color: transparent; border: medium solid transparent;} 
+/* in .tagName2 color:black and background-color are important */
+.transre_total_semantic2           { color: black; background-color: #FA007D; border: medium solid transparent;} 
+.transre_total_semantic3           { color: black; background-color: #FA007D; border-color: #666600; }
+div.transre_total_semanticM        { color: black; background-color: #FA007D; border: none;}
+div.transre_total_semanticM:hover  { color: black; background-color: #FFFFFF; border: none; }
+
+
+.transre_pronoun1           { color: #915674; background-color: transparent; border: medium solid transparent;} 
+/* in .tagName2 color:black and background-color are important */
+.transre_pronoun2           { color: black; background-color: #915674; border: medium solid transparent;} 
+.transre_pronoun3           { color: black; background-color: #915674; border-color: #666600; }
+div.transre_pronounM        { color: black; background-color: #915674; border: none;}
+div.transre_pronounM:hover  { color: black; background-color: #FFFFFF; border: none; }
+
+
+.transre_redundancy1           { color: #490427; background-color: transparent; border: medium solid transparent;} 
+/* in .tagName2 color:black and background-color are important */
+.transre_redundancy2           { color: black; background-color: #490427; border: medium solid transparent;} 
+.transre_redundancy3           { color: black; background-color: #490427; border-color: #666600; }
+div.transre_redundancyM        { color: black; background-color: #490427; border: none;}
+div.transre_redundancyM:hover  { color: black; background-color: #FFFFFF; border: none; }
+
+
+.transre_no_trans1           { color: #E2540E; background-color: transparent; border: medium solid transparent;} 
+/* in .tagName2 color:black and background-color are important */
+.transre_no_trans2           { color: black; background-color: #E2540E; border: medium solid transparent;} 
+.transre_no_trans3           { color: black; background-color: #E2540E; border-color: #666600; }
+div.transre_no_transM        { color: black; background-color: #E2540E; border: none;}
+div.transre_no_transM:hover  { color: black; background-color: #E2540E; border: none; }
+
+
+.transre_formal1           { color: #778E6C; background-color: transparent; border: medium solid transparent;} 
+/* in .tagName2 color:black and background-color are important */
+.transre_formal2           { color: black; background-color: #778E6C; border: medium solid transparent;} 
+.transre_formal3           { color: black; background-color: #778E6C; border-color: #666600; }
+div.transre_formalM        { color: black; background-color: #778E6C; border: none;}
+div.transre_formalM:hover  { color: black; background-color: #FFFFFF; border: none; }
+
+
+
+.slight_semantic1           { color: #DC00FA; background-color: transparent; border: medium solid transparent;} 
+/* in .tagName2 color:black and background-color are important */
+.slight_semantic2           { color: black; background-color: #DC00FA; border: medium solid transparent;} 
+.slight_semantic3           { color: black; background-color: #DC00FA; border-color: #666600; }
+div.slight_semanticM        { color: black; background-color: #DC00FA; border: none;}
+div.slight_semanticM:hover  { color: black; background-color: #FFFFFF; border: none; }
+
+
+.total_semantic1           { color: #FA007D; background-color: transparent; border: medium solid transparent;} 
+/* in .tagName2 color:black and background-color are important */
+.total_semantic2           { color: black; background-color: #FA007D; border: medium solid transparent;} 
+.total_semantic3           { color: black; background-color: #FA007D; border-color: #666600; }
+div.total_semanticM        { color: black; background-color: #FA007D; border: none;}
+div.total_semanticM:hover  { color: black; background-color: #FFFFFF; border: none; }
+
+
+.pronoun1           { color: #915674; background-color: transparent; border: medium solid transparent;} 
+/* in .tagName2 color:black and background-color are important */
+.pronoun2           { color: black; background-color: #915674; border: medium solid transparent;} 
+.pronoun3           { color: black; background-color: #915674; border-color: #666600; }
+div.pronounM        { color: black; background-color: #915674; border: none;}
+div.pronounM:hover  { color: black; background-color: #FFFFFF; border: none; }
+
+
+.redundancy1           { color: #490427; background-color: transparent; border: medium solid transparent;} 
+/* in .tagName2 color:black and background-color are important */
+.redundancy2           { color: black; background-color: #490427; border: medium solid transparent;} 
+.redundancy3           { color: black; background-color: #490427; border-color: #666600; }
+div.redundancyM        { color: black; background-color: #490427; border: none;}
+div.redundancyM:hover  { color: black; background-color: #FFFFFF; border: none; }
+
+
+.no_trans1           { color: #E2540E; background-color: transparent; border: medium solid transparent;} 
+/* in .tagName2 color:black and background-color are important */
+.no_trans2           { color: black; background-color: #E2540E; border: medium solid transparent;} 
+.no_trans3           { color: black; background-color: #E2540E; border-color: #666600; }
+div.no_transM        { color: black; background-color: #E2540E; border: none;}
+div.no_transM:hover  { color: black; background-color: #E2540E; border: none; }
+
+
+.formal1           { color: #778E6C; background-color: transparent; border: medium solid transparent;} 
+/* in .tagName2 color:black and background-color are important */
+.formal2           { color: black; background-color: #778E6C; border: medium solid transparent;} 
+.formal3           { color: black; background-color: #778E6C; border-color: #666600; }
+div.formalM        { color: black; background-color: #778E6C; border: none;}
+div.formalM:hover  { color: black; background-color: #FFFFFF; border: none; }
+
+
+
+.good1           { color: #C70039; background-color: transparent; border: medium solid transparent;} 
+/* in .tagName2 color:black and background-color are important */
+.good2           { color: black; background-color: #C70039; border: medium solid transparent;} 
+.good3           { color: black; background-color: #C70039; border-color: #666600; }
+div.goodM        { color: black; background-color: #C70039; border: none;}
+div.goodM:hover  { color: black; background-color: #FFFFFF; border: none; }
+
+.bad1           { color: #00FBBE; background-color: transparent; border: medium solid transparent;} 
+/* in .tagName2 color:black and background-color are important */
+.bad2           { color: black; background-color: #00FBBE; border: medium solid transparent;} 
+.bad3           { color: black; background-color: #00FBBE; border-color: #666600; }
+div.badM        { color: black; background-color: #00FBBE; border: none;}
+div.badM:hover  { color: black; background-color: #FFFFFF; border: none; }
+
+.literal1           { color: #0d0909; background-color: transparent; border: medium solid transparent;} 
+/* in .tagName2 color:black and background-color are important */
+.literal2           { color: black; background-color: #ffff00; border: medium solid transparent;} 
+.literal3           { color: black; background-color: #ffff00; border-color: #666600; }
+div.literalM        { color: black; background-color: #ffff00; border: none;}
+div.literalM:hover  { color: black; background-color: #FFFFFF; border: none; }
+
+
+.funcEquiv1          { color: gray; }
+.funcEquiv2          { color: black; background-color: #ddff00; }
+.funcEquiv3          { color: black; background-color: #ddff00; border-color: #666600; }
+div.funcEquivM       { color: black; background-color: #aacc00; }
+div.funcEquivM:hover { color: black; background-color: #ddff66; }
+
+
+
+
+.equivalence1   { color: #ef720b; background-color: transparent; border: medium solid transparent; }
+.equivalence2   { color: black; background-color: #ef720b; border: medium solid transparent; }
+.equivalence3   { color: black; background-color: #ef720b; border: medium solid #A3D1A3; }
+div.equivalenceM       { color: black; background-color: #ef720b; border: none; }
+div.equivalenceM:hover { color: black; background-color: #FFFFFF; border: none; }
+
+
+
+.generalization1   { color: #996633; background-color: transparent; border: medium solid transparent; }
+.generalization2   { color: black; background-color: #996633; border: medium solid transparent; }
+.generalization3   { color: black; background-color: #996633; border: medium solid #006600; }
+div.generalizationM       { color: black; background-color: #996633; border: none; }
+div.generalizationM:hover { color: black; background-color: #FFFFFF; border: none; }
+
+
+.particularization1             { color: #d72560; background-color: transparent; border: medium solid transparent;}
+.particularization2             { color: black; background-color: #d72560; border: medium solid transparent;}
+.particularization3             { color: black; background-color: #d72560; border-color: #F47B1F; }
+div.particularizationM          { color: black; background-color: #d72560; border: none;}
+div.particularizationM:hover    { color: black; background-color: #FFFFFF; border: none; }
+
+
+.modulation1          { color: #47d1d8; background-color: transparent; border: medium solid transparent; }
+.modulation2          { color: black; background-color: #47d1d8; border: medium solid transparent; }
+.modulation3          { color: black; background-color: #47d1d8; border: medium solid #006600; }
+div.modulationM       { color: black; background-color: #47d1d8; border: none; }
+div.modulationM:hover { color: black; background-color: #FFFFFF; border: none; }
+
+
+.lexical_shift1          { color: #9370DB; background-color: transparent; border: medium solid transparent; }
+.lexical_shift2          { color: black; background-color: #9370DB; border: medium solid transparent; }
+.lexical_shift3          {color: black; background-color: #9370DB; border: medium solid #006600;}
+div.lexical_shiftM       {color: black; background-color: #9370DB; border:none; }
+div.lexical_shiftM:hover {color: black; background-color: #FFFFFF; border: none;} 
+
+
+.transposition1   { color: #77cc22; background-color: transparent; border: medium solid transparent; }
+.transposition2   { color: black; background-color: #77cc22; border: medium solid transparent; }
+.transposition3   { color: black; background-color: #77cc22; border: medium solid #A3D1A3; }
+div.transpositionM       { color: black; background-color: #77cc22; border: none; }
+div.transpositionM:hover { color: black; background-color: #FFFFFF; border: none; }
+
+
+.modulation_transposition1   { color: #2AA15A; background-color: transparent; border: medium solid transparent; }
+.modulation_transposition2   { color: black; background-color: #2AA15A; border: medium solid transparent; }
+.modulation_transposition3   { color: black; background-color: #2AA15A; border: medium solid #006600; }
+div.modulation_transpositionM       { color: black; background-color: #2AA15A; border: none; }
+div.modulation_transpositionM:hover { color: black; background-color: #FFFFFF; border: none; }
+
+
+.figurative1           { color: #ff6699; background-color: transparent; border: medium solid transparent; } 
+.figurative2           { color: black; background-color: #ff6699; border: medium solid transparent; }
+.figurative3           { color: black; background-color: #ff6699; border: medium solid #666600; }
+div.figurativeM        { color: black; background-color: #ff6699; border: none; }
+div.figurativeM:hover  { color: black; background-color: #FFFFFF; border: none; }
+
+
+.translation_error1        { color: #0083CE; background-color: transparent; border: medium solid transparent; }
+.translation_error2        { color: black; background-color: #0083CE; border: medium solid transparent; }
+.translation_error3        { color: black; background-color: #0083CE; border: medium solid #000099; }
+div.translation_errorM        { color: black; background-color: #0083CE; border: none; }
+div.translation_errorM:hover  { color: black; background-color: #FFFFFF; border: none; }
+
+
+.uncertain1  { color: #d3786e; background-color: transparent; border: medium solid transparent; }
+.uncertain2  { color: black; background-color: #d3786e; border: medium solid transparent; }
+.uncertain3  { color: black; background-color: #d3786e; border: medium solid #666600; }
+div.uncertainM       { color: black; background-color: #d3786e; border: none; }
+div.uncertainM:hover { color: black; background-color: #FFFFFF; border: none; }
+
+
+.unaligned_explicitation1 { color: #AAAAAA; background-color: transparent; border: medium solid transparent;} 
+.unaligned_explicitation2 { color: black; background-color: #89898E; border: medium solid transparent;} 
+.unaligned_explicitation3 { color: black; background-color: #89898E; border-color: #666666; }
+div.unaligned_explicitationM         { color: black; background-color: #89898E; }
+div.unaligned_explicitationM:hover   { color: black; background-color: #FFFFFF; border: none; }
+
+
+.unaligned_reduction1        { color: #b853e2; background-color: transparent; border: medium solid transparent; }
+.unaligned_reduction2        { color: black; background-color: #b853e2; border: medium solid transparent; }
+.unaligned_reduction3        { color: black; background-color: #b853e2; border: medium solid #000099; }
+div.unaligned_reductionM     { color: black; background-color: #b853e2; border: none; }
+div.unaligned_reductionM:hover { color: black; background-color: #FFFFFF; border: none; }
+
+.focus2      {  color: black; background-color: #FFFFFF;   border: medium solid blue;}
+.focus3      {  color: black; background-color: pink;      border: medium solid blue; }
+
+.extra1       {  color: #eedd82; background-color: transparent; border: medium solid transparent; }
+.extra2       {  color:   black; background-color:     #eedd82; border: medium solid transparent; }
+.extra3       {  color: #eedd82; background-color: transparent; border: medium solid transparent; }
+div.extraM       {  color: black; background-color: #ccbb60; border: medium solid transparent; }
+div.extraM:hover {  color: black; background-color: #eedd82; border: medium solid transparent; }
+
+.sideA2         { color: black;     background-color: #DDDDDD;  border: medium solid transparent;}
+.sideA3         { color: black;     background-color: #DDDDDD;  border: medium solid magenta;}
+
+.sideB2         { color: black;     background-color: #eee8aa;  border: medium solid transparent;}
+.sideB3         { color: black;     background-color: #eee8aa;  border: medium solid magenta;}
+        

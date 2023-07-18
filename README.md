@@ -1,0 +1,1 @@
+# yawat_platform_building
